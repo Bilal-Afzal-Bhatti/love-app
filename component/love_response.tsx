@@ -32,7 +32,7 @@ const Love_response = () => {
 try{
 
 
-    let reply = await fetch("/api/user",
+    let reply = await fetch("/api/user/route.ts",
       {
         method:"POST",
         headers: {
