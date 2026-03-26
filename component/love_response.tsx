@@ -2,8 +2,6 @@
 import React, { useRef, useState, useEffect } from 'react'
 import { useParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
-import { METHODS } from 'http'
-import { json } from 'stream/consumers'
 
 const DotLottieReact = dynamic(
   () => import('@lottiefiles/dotlottie-react').then((mod) => mod.DotLottieReact),
@@ -53,7 +51,7 @@ try{
       catch(error)
       {
         console.error(error);
-       console.log("there is error")
+      
       }
       
     console.log(formData);
