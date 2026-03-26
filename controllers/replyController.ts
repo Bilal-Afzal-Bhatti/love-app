@@ -23,7 +23,7 @@ export const createReply = async (data: { email: string; reply: string }) => {
       subject: "❤️ Your Response was Received!",
       html: `
         <div style="font-family: sans-serif; padding: 20px; border: 2px solid #ff4d6d; border-radius: 12px; text-align: center;">
-          <h2 style="color: #ff4d6d;">Confirmation Received!</h2>
+          <h2 style="color: #ff4d6d;">Great!</h2>
           <p>Thank you for your reply, <strong>${email}</strong>.</p>
           <div style="background: #fff0f3; padding: 15px; border-radius: 8px; margin-top: 10px; display: inline-block; text-align: left;">
             <strong>Your Message:</strong><br/>
