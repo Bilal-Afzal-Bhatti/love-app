@@ -44,6 +44,7 @@ export const createReply = async (data: { email: string; reply: string }) => {
 
   } catch (error) {
     // If DB fails or email fails, this will return the specific error
+    console.log("ERROR 404 ")
     return handleError(error);
   }
 };
