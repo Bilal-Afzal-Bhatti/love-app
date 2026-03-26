@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "regions": ["sin1"], 
+  "github": {
+    "silent": true,
+    "autoJobCancelation": true
+  }
+}
