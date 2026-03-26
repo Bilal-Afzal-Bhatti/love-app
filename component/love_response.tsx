@@ -27,6 +27,8 @@ const Love_response = () => {
   }
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    // 1. Start the timer with a unique label
+  console.time("Backend Response Time");
 try{
 
 
@@ -41,6 +43,7 @@ try{
       body:JSON.stringify(formData)
        } );
        const data = await reply.json();
+       console.timeEnd("Backend Response Time");
        console.log(data);
          // ✅ Clear the form
     setFormData({
