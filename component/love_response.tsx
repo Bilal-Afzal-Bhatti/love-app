@@ -115,7 +115,7 @@ const Love_response = () => {
           <div className="w-72 h-72 md:w-112.5 md:h-112.5 opacity-90 transition-opacity duration-1000">
             <DotLottieReact
               src="https://lottie.host/c7ab4a90-af37-4545-b1e4-1d3efb814c49/3xo4BPZIq9.lottie"
-              loop={false}
+              loop={true}
               autoplay
             />
           </div>
